@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/opencv/TestingOpenCV/test.cpp
+/home/opencv/DIPPractice/TestingOpenCV/test.cpp
 stdio.h
 -
 opencv2/opencv.hpp

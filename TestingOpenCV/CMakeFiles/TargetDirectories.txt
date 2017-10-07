@@ -1,3 +1,4 @@
-/home/opencv/TestingOpenCV/CMakeFiles/edit_cache.dir
-/home/opencv/TestingOpenCV/CMakeFiles/rebuild_cache.dir
-/home/opencv/TestingOpenCV/CMakeFiles/DisplayImage.dir
+/home/opencv/DIPPractice/TestingOpenCV/CMakeFiles/edit_cache.dir
+/home/opencv/DIPPractice/TestingOpenCV/CMakeFiles/rebuild_cache.dir
+/home/opencv/DIPPractice/TestingOpenCV/CMakeFiles/cubic.dir
+/home/opencv/DIPPractice/TestingOpenCV/CMakeFiles/DisplayImage.dir

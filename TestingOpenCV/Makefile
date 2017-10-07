@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/opencv/TestingOpenCV
+CMAKE_SOURCE_DIR = /home/opencv/DIPPractice/TestingOpenCV
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/opencv/TestingOpenCV
+CMAKE_BINARY_DIR = /home/opencv/DIPPractice/TestingOpenCV
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencv/TestingOpenCV/CMakeFiles /home/opencv/TestingOpenCV/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencv/DIPPractice/TestingOpenCV/CMakeFiles /home/opencv/DIPPractice/TestingOpenCV/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencv/TestingOpenCV/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencv/DIPPractice/TestingOpenCV/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named cubic
+
+# Build rule for target.
+cubic: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cubic
+.PHONY : cubic
+
+# fast build rule for target.
+cubic/fast:
+	$(MAKE) -f CMakeFiles/cubic.dir/build.make CMakeFiles/cubic.dir/build
+.PHONY : cubic/fast
+
+#=============================================================================
 # Target rules for targets named DisplayImage
 
 # Build rule for target.
@@ -122,6 +135,33 @@ DisplayImage: cmake_check_build_system
 DisplayImage/fast:
 	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
 .PHONY : DisplayImage/fast
+
+cubicinterprolation.o: cubicinterprolation.cpp.o
+
+.PHONY : cubicinterprolation.o
+
+# target to build an object file
+cubicinterprolation.cpp.o:
+	$(MAKE) -f CMakeFiles/cubic.dir/build.make CMakeFiles/cubic.dir/cubicinterprolation.cpp.o
+.PHONY : cubicinterprolation.cpp.o
+
+cubicinterprolation.i: cubicinterprolation.cpp.i
+
+.PHONY : cubicinterprolation.i
+
+# target to preprocess a source file
+cubicinterprolation.cpp.i:
+	$(MAKE) -f CMakeFiles/cubic.dir/build.make CMakeFiles/cubic.dir/cubicinterprolation.cpp.i
+.PHONY : cubicinterprolation.cpp.i
+
+cubicinterprolation.s: cubicinterprolation.cpp.s
+
+.PHONY : cubicinterprolation.s
+
+# target to generate assembly for a file
+cubicinterprolation.cpp.s:
+	$(MAKE) -f CMakeFiles/cubic.dir/build.make CMakeFiles/cubic.dir/cubicinterprolation.cpp.s
+.PHONY : cubicinterprolation.cpp.s
 
 test.o: test.cpp.o
 
@@ -158,7 +198,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... cubic"
 	@echo "... DisplayImage"
+	@echo "... cubicinterprolation.o"
+	@echo "... cubicinterprolation.i"
+	@echo "... cubicinterprolation.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
