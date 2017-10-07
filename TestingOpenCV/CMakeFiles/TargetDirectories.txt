@@ -1,0 +1,3 @@
+/home/opencv/TestingOpenCV/CMakeFiles/edit_cache.dir
+/home/opencv/TestingOpenCV/CMakeFiles/rebuild_cache.dir
+/home/opencv/TestingOpenCV/CMakeFiles/DisplayImage.dir
