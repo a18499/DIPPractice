@@ -44,7 +44,7 @@ int main () {
 	double p[4][4] = {{1,3,3,4}, {7,2,3,4}, {1,6,3,6}, {2,5,7,2}};
 
 	// Interpolate
-	std::cout << bicubicInterpolate(p, 0.1, 0.2) << '\n';
+	std::cout << bicubicInterpolate(p, 2, 2) << '\n';
 
 	// Or use the nCubicInterpolate function
 	double co[2] = {0.1, 0.2};
