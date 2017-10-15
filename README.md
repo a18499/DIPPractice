@@ -4,6 +4,6 @@ new bilinear interpolation
 new bicubic interpolation  
 
 #### Usage  
-cd inter/
-./Interploation [imagepath] [scale size]
+cd inter/  
+./Interploation [imagepath] [scale size]  
 
