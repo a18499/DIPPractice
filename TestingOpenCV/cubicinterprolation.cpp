@@ -1,6 +1,6 @@
 #include <iostream>
 #include <assert.h>
-
+#include <stdio.h>
 double cubicInterpolate (double p[4], double x) {
 	return p[1] + 0.5 * x*(p[2] - p[0] + x*(2.0*p[0] - 5.0*p[1] + 4.0*p[2] - p[3] + x*(3.0*(p[1] - p[2]) + p[3] - p[0])));
 }
@@ -42,7 +42,11 @@ double nCubicInterpolate (int n, double* p, double coordinates[]) {
 int main () {
 	// Create array
 	double p[4][4] = {{1,3,3,4}, {7,2,3,4}, {1,6,3,6}, {2,5,7,2}};
-
+	for(int i = 0;i<4 ;i++){
+		for(int j=0;j<4 ;j++){
+			printf("p[%d][%d]: %f\n",i,j,p[i][j]);
+		}
+	}
 	// Interpolate
 	std::cout << bicubicInterpolate(p, 2, 2) << '\n';
 

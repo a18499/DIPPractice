@@ -1,0 +1,3 @@
+/home/opencv/DIPPractice/Inter/CMakeFiles/rebuild_cache.dir
+/home/opencv/DIPPractice/Inter/CMakeFiles/edit_cache.dir
+/home/opencv/DIPPractice/Inter/CMakeFiles/Interploation.dir
