@@ -1,0 +1,3 @@
+/home/opencv/DIPPractice/histogram/CMakeFiles/edit_cache.dir
+/home/opencv/DIPPractice/histogram/CMakeFiles/rebuild_cache.dir
+/home/opencv/DIPPractice/histogram/CMakeFiles/hist.dir
