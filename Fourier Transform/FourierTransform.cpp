@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <opencv2/opencv.hpp>
 
+
+using namespace cv;
+
+
 int main(){
     Mat inputImg = imread("lena.bmp", CV_LOAD_IMAGE_GRAYSCALE);
     Mat padded;
@@ -48,7 +52,7 @@ int main(){
     idft(complexImg,ifft,DFT_REAL_OUTPUT);
     normalize(ifft,ifft,0,1,CV_MINMAX);
     imshow("逆向求輸入圖",ifft);
-    waitKey();
+    waitKey(0);
 
     return 0;
 }

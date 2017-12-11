@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
-project( hist )
+project( ft )
 find_package( OpenCV REQUIRED )
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 add_executable( ft FourierTransform.cpp )
-target_link_libraries( hist ${OpenCV_LIBS} )
+target_link_libraries( ft ${OpenCV_LIBS} )
