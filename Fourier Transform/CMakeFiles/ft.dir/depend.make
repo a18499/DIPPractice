@@ -35,6 +35,7 @@ CMakeFiles/ft.dir/FourierTransform.cpp.o: /usr/local/include/opencv2/core/types.
 CMakeFiles/ft.dir/FourierTransform.cpp.o: /usr/local/include/opencv2/core/types_c.h
 CMakeFiles/ft.dir/FourierTransform.cpp.o: /usr/local/include/opencv2/core/utility.hpp
 CMakeFiles/ft.dir/FourierTransform.cpp.o: /usr/local/include/opencv2/core/version.hpp
+CMakeFiles/ft.dir/FourierTransform.cpp.o: /usr/local/include/opencv2/core/vsx_utils.hpp
 CMakeFiles/ft.dir/FourierTransform.cpp.o: /usr/local/include/opencv2/features2d.hpp
 CMakeFiles/ft.dir/FourierTransform.cpp.o: /usr/local/include/opencv2/flann.hpp
 CMakeFiles/ft.dir/FourierTransform.cpp.o: /usr/local/include/opencv2/flann/all_indices.h
