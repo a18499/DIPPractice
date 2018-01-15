@@ -3,6 +3,8 @@ Pratice code for DIP
 new bilinear interpolation  
 new bicubic interpolation  
 new histogram specification
+new Image Repair use color transform between image  
+    custom mask
 
 #### Usage    
 cd inter/  
