@@ -1,0 +1,23 @@
+﻿  OpenCV_Test_main.cpp
+c:\users\a1849\desktop\opencv_test\opencv_test\opencv_test_main.cpp(7): warning C4067: 未預期的語彙基元，接著前置處理器指示詞 - 必須是新行
+c:\users\a1849\desktop\opencv_test\opencv_test\findcontours.cpp(338): warning C4566: 由通用字元名稱 '\u5C06' 表示的字元，無法在目前的字碼頁中表示 (950)
+c:\users\a1849\desktop\opencv_test\opencv_test\findcontours.cpp(338): warning C4566: 由通用字元名稱 '\u8F93' 表示的字元，無法在目前的字碼頁中表示 (950)
+c:\users\a1849\desktop\opencv_test\opencv_test\findcontours.cpp(338): warning C4566: 由通用字元名稱 '\u56FE' 表示的字元，無法在目前的字碼頁中表示 (950)
+c:\users\a1849\desktop\opencv_test\opencv_test\findcontours.cpp(338): warning C4566: 由通用字元名稱 '\u8F6C' 表示的字元，無法在目前的字碼頁中表示 (950)
+c:\users\a1849\desktop\opencv_test\opencv_test\findcontours.cpp(338): warning C4566: 由通用字元名稱 '\u4E3A' 表示的字元，無法在目前的字碼頁中表示 (950)
+c:\users\a1849\desktop\opencv_test\opencv_test\findcontours.cpp(338): warning C4566: 由通用字元名稱 '\u5BF9' 表示的字元，無法在目前的字碼頁中表示 (950)
+c:\users\a1849\desktop\opencv_test\opencv_test\findcontours.cpp(338): warning C4566: 由通用字元名稱 '\u4E2A' 表示的字元，無法在目前的字碼頁中表示 (950)
+c:\users\a1849\desktop\opencv_test\opencv_test\findcontours.cpp(338): warning C4566: 由通用字元名稱 '\u56F4' 表示的字元，無法在目前的字碼頁中表示 (950)
+c:\users\a1849\desktop\opencv_test\opencv_test\findcontours.cpp(338): warning C4566: 由通用字元名稱 '\u8FDB' 表示的字元，無法在目前的字碼頁中表示 (950)
+c:\users\a1849\desktop\opencv_test\opencv_test\findcontours.cpp(338): warning C4566: 由通用字元名稱 '\u6D4B' 表示的字元，無法在目前的字碼頁中表示 (950)
+c:\users\a1849\desktop\opencv_test\opencv_test\findcontours.cpp(338): warning C4566: 由通用字元名稱 '\u8BD5' 表示的字元，無法在目前的字碼頁中表示 (950)
+c:\users\a1849\desktop\opencv_test\opencv_test\findcontours.cpp(338): warning C4566: 由通用字元名稱 '\u52A8' 表示的字元，無法在目前的字碼頁中表示 (950)
+c:\users\a1849\desktop\opencv_test\opencv_test\findcontours.cpp(338): warning C4566: 由通用字元名稱 '\u6761' 表示的字元，無法在目前的字碼頁中表示 (950)
+c:\users\a1849\desktop\opencv_test\opencv_test\findcontours.cpp(338): warning C4566: 由通用字元名稱 '\u9009' 表示的字元，無法在目前的字碼頁中表示 (950)
+c:\users\a1849\desktop\opencv_test\opencv_test\findcontours.cpp(338): warning C4566: 由通用字元名稱 '\u62E9' 表示的字元，無法在目前的字碼頁中表示 (950)
+c:\users\a1849\desktop\opencv_test\opencv_test\findcontours.cpp(338): warning C4566: 由通用字元名稱 '\u952E' 表示的字元，無法在目前的字碼頁中表示 (950)
+c:\users\a1849\desktop\opencv_test\opencv_test\findcontours.cpp(297): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+c:\users\a1849\desktop\opencv_test\opencv_test\opencv_test_main.cpp(8): warning C4067: 未預期的語彙基元，接著前置處理器指示詞 - 必須是新行
+c:\users\a1849\desktop\opencv_test\opencv_test\imagerepair.cpp(289): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+c:\users\a1849\desktop\opencv_test\opencv_test\opencv_test_main.cpp(14): warning C4101: 'myimageRepair': 未參考的區域變數
+  OpenCV_Test.vcxproj -> C:\Users\a1849\Desktop\OpenCV_Test\x64\Debug\OpenCV_Test.exe
